@@ -7,7 +7,7 @@ services:
       - "7474:7474"
       - "7687:7687"
     environment:
-      NEO4J_AUTH: "neo4j/tQwpKMhWDs9KpApBHo6IR4V_88jT63q_HpH7__Cg4Zo"
+      NEO4J_AUTH: "YOUR_AUTH"
       NEO4J_apoc_export_file_enabled: "true"
       NEO4J_apoc_import_file_enabled: "true"
       NEO4J_apoc_import_file_use__neo4j__config: "true"
